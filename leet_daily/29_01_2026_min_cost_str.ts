@@ -1,3 +1,4 @@
+export{};// To avoid ts duplicate function warning
 function minimumCost(source: string, target: string, original: string[], changed: string[], cost: number[]): number {
     var len:number = source.length;
     var min_cost:number[] = Array(len).fill(-1);
